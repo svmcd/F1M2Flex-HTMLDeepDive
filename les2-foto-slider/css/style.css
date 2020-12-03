@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+}
+
+#fotoslider {
+    display: flex;
+    flex-direction: row;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
