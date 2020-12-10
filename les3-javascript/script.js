@@ -30,9 +30,7 @@ function volgendeFoto(){
     fotoslider.style.left = afstandNaarLinks + "px";
 }
 
-window.addEventListener('DOMContentLoaded', setupFotoslider)
-
-/*function vorigeFoto(){
+function vorigeFoto(){
     fotonummer += 1;
 
     if (fotonummer === aantalfotos) {
@@ -41,5 +39,7 @@ window.addEventListener('DOMContentLoaded', setupFotoslider)
 
     let afstandNaarRechts = -1 * (fotonummer * fotobreedte)
 
-    fotoslider.style.right = afstandNaarRechts + "px";
+    fotoslider.style.right = afstandNaarRechts - "px";
 }
+
+window.addEventListener('DOMContentLoaded', setupFotoslider)
